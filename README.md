@@ -1,2 +1,23 @@
 # pathfilter
-filter arrays of/ string paths by extension &amp; stuff 
+
+###byExt(ext, path(s))
+var pFilter = require('pathfilter');
+
+var ext = 'js';
+var path = '/path/to/abc.js';
+
+console.log('result:' + pFilter.byExt(ext,path));
+// /path/to/abc.js
+
+ext = 'js';
+path = ['/path/to/abc.js',
+        '/path/to/def.js',
+        '/path/to/ghi.css',
+        '/path/to/jkl.exe'];
+        
+console.log('result:' + pFilter.byExt(ext,path));
+// /path/to/abc.js,/path/to/def.js
+
+ext = ['js','css'];
+console.log('result:' + pFilter.byExt(ext,path));
+// /path/to/abc.js,/path/to/def.js,/path/to/ghi.css
