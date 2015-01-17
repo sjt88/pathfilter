@@ -1,6 +1,8 @@
 # pathfilter
 
 ###byExt(ext, path(s))
+
+```javascript
 var pFilter = require('pathfilter');
 
 var ext = 'js';
@@ -21,3 +23,4 @@ console.log('result:' + pFilter.byExt(ext,path));
 ext = ['js','css'];
 console.log('result:' + pFilter.byExt(ext,path));
 // /path/to/abc.js,/path/to/def.js,/path/to/ghi.css
+```
