@@ -1,0 +1,26 @@
+{
+  "name": "pathfilter",
+  "version": "0.0.2",
+  "description": "methods for filtering path strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjt88/pathfilter.git"
+  },
+  "keywords": [
+    "path",
+    "paths",
+    "filter",
+    "extension",
+    "filename"
+  ],
+  "author": "Simon Tweed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjt88/pathfilter/issues"
+  },
+  "homepage": "https://github.com/sjt88/pathfilter"
+}
